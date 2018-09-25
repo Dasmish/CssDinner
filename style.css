@@ -1,0 +1,88 @@
+body{
+	background-color: rgb(59, 63, 69);
+	margin: 0;
+}
+*{transition: all .1s ease-in;}
+/*.content{
+	width: 50%;
+	margin: 0 auto;
+}*/
+.TopPanel{
+	background-color: rgb(74, 79, 86);
+}
+.TopPanel h1{
+	color: rgb(235, 126, 127);
+	text-align: center;
+	/*margin: 10px 0 10px 0;*/
+	margin: 0;
+	padding: 15px 0 10px 0;
+}
+.TopPanel h2{
+	color: rgb(235, 126, 127);
+	text-align: center;
+	margin: 0;
+	padding-bottom: 15px;
+}
+.MiddlePanel{
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+ul{
+	font-size: 30px;
+	list-style: none;
+	color: white;
+	background-color: rgb(136, 131, 158);
+	padding: 0;
+}
+li{
+	padding: 15px 0 15px 10px;
+}
+li:nth-child(2n){
+	background-color: rgb(122, 117, 147)
+}
+label{
+	display: block;
+}
+li a:before
+{
+    content: "\2610";
+    margin-right:5px;
+}
+li a:active:before
+{
+    content: "\2611";
+    margin-right:5px;
+}
+
+input[type='checkbox']{
+	transform: scale(1.7);
+}
+li:hover{
+	background-color: rgb(98, 94, 119);
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+input:checked + label{
+	text-decoration: line-through;
+	/* color: rgb(163, 160, 181); */
+	background-color: rgb(122, 117, 147);
+}
+
+.BottomPanel{
+	width: 50%;
+	margin: 0 auto;
+}
+.CustomButton{
+	background-color: rgb(74,78,89);
+    border: none;
+    color: rgb(235,126, 127);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.CustomButton:hover{
+	cursor: pointer;
+}
